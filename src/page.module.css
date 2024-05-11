@@ -1,0 +1,12 @@
+.root[error] {
+  border: 2px dashed red;
+}
+
+.errorText {
+  display: none;
+  color: red !important;
+}
+
+.errorText[error] {
+  display: block;
+}
